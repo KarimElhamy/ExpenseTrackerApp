@@ -1,0 +1,76 @@
+.container {
+  background-color: whitesmoke;
+  border: 2px;
+  box-shadow: #282c34;
+  height: 50%;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  box-shadow: 10px;
+}
+
+.body {
+  background-color: #f7f7f7;
+}
+
+.background {
+  background-color: #f7f7f7;
+}
+
+.buttonClicked {
+  background-color: #1876d1;
+  color: white;
+}
+
+.Btn:focus {
+  background-color: #1876d1;
+  color: white;
+}
+
+.Btn:active {
+  background-color: #1876d1;
+  color: white;
+}
+
+.Btn:not(:focus) {
+  color: #6650a4;
+}
+
+.Btn:hover {
+  color: #6650a4;
+}
+.card {
+  max-height: 90%;
+  width: 100%;
+  height: 100%;
+  border-width: 3;
+  border-color: white;
+  box-shadow: 5px 5px 5px 5px grey;
+  background-color: #f7f7f7;
+  margin: auto;
+}
+
+.balance {
+  background-color: lightgreen;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.balance-text {
+  font-size: large;
+  font-weight: bold;
+  width: 150px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.div-sidexside {
+  display: inline-block;
+}
