@@ -43,7 +43,7 @@ export default function FormDialog() {
       <Button
         onClick={handleClickOpen}
         size="medium"
-        variant="outlined"
+        variant="elevated"
         style={{ margin: "5px" }}
       >
         Add New Category
